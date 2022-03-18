@@ -18,19 +18,10 @@ except:
    os.system('pip2 install requests')
 
 import requests
-import platform 
 bit = platform.architecture()[0]
-
 if bit == '64bit':
-	from mpro import menu
-	menu()
+    from mpro import Masuk
+    Masuk()
 elif bit == '32bit':
-	from mpro32 import menu32
-	menu32()
-
-
-
-   
-
-
-
+    from mpro32 import Masuk
+    Masuk()
