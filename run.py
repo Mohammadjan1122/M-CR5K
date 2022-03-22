@@ -8,7 +8,7 @@ try:os.system('mkdir CP')
 except:pass
 try:os.system('mkdir IG')
 except:pass
-os.system("rm -rf mpro32.cpython-310.so mpro.cpython-310.so")
+except:pass
 
 print("join to telegram channel @sultani1122") 
 
@@ -25,7 +25,7 @@ except:
 import requests
 bit = platform.architecture()[0]
 if bit == '64bit':
-    from mpro import Masuk
+    from mpro64 import Masuk
     Masuk()
 elif bit == '32bit':
     from mpro32 import Masuk
