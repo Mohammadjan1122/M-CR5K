@@ -7,8 +7,8 @@ except:pass
 try:os.system('mkdir CP')
 except:pass
 try:os.system('mkdir IG')
-except:pass
-except:pass
+except:pass 
+
 
 print("join to telegram channel @sultani1122") 
 
